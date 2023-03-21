@@ -13,7 +13,7 @@ public class Main {
         SongPlayer songPlayer = new SongPlayer();
         Song song = new Song(new File(fileName));
 
-        songPlayer.play(song, instrumento);
+        songPlayer.play(song, instrumento.getInstrumentPlayer());
 
     }
 }
